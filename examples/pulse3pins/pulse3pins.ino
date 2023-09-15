@@ -2,7 +2,9 @@
 
 void setup()
 {
+  //Number of ports being used
   initPWM(3);
+  
   //Setup each pin (index and pin number)
   pinModePwm(0,2);
   pinModePwm(1,3);
